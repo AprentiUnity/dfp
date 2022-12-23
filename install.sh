@@ -1,2 +1,2 @@
 gcc -Ofast dfp.c
-mv a.out /usr/bin/dfp
+sudo mv a.out /usr/bin/dfp
