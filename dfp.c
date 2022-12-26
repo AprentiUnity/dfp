@@ -7,6 +7,7 @@ int main(int argc, unsigned char *argv[])
     for(i = 1; i < argc; i++)
     {
         register unsigned long long nombreDecoupe = strtoull(argv[i], NULL, 10);
+        register unsigned long long nombrePremier = 11;
         printf("Décomposition de %lld en produits de nombres premiers\n", nombreDecoupe);
         while(nombreDecoupe != 1)
         {
@@ -32,7 +33,6 @@ int main(int argc, unsigned char *argv[])
             }
             else
             {
-                register unsigned long long nombrePremier = 11;
                 while(nombrePremier <= nombreDecoupe)
                 {
                     if(nombreDecoupe % nombrePremier != 0)
@@ -48,6 +48,6 @@ int main(int argc, unsigned char *argv[])
             }
         }
     }
-    printf("Progamme éxécuté avec succès ! [v1.0]\n");
+    printf("Progamme éxécuté avec succès ! [v1.1]\n");
     return 0;
 }
