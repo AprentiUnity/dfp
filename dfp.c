@@ -48,6 +48,6 @@ int main(int argc, unsigned char *argv[])
             }
         }
     }
-    printf("Progamme éxécuté avec succès ! [v1.1]\n");
+    printf("Programme éxécuté avec succès ! [v1.1]\n");
     return 0;
 }
