@@ -5,7 +5,7 @@ Version actuelle : 1.0
 # Installation
 ## Linux
 Pour ajouter le programme comme commande linux, éxecutez le programme "install.sh".\
-**ATTENTION : GCC ET LES PERMISSIONS SUDO SONT REQUIS POUR QUE LE PROGRAMME FONCTIONNE !**
+**ATTENTION : GCC ET LES PERMISSIONS SUDO SONT REQUIS POUR QUE LE PROGRAMME FONCTIONNE ! (un petit coup de chmod 777 et tout fonctionne)**
 
 ## Windows
 Pour ajouter le programme comme commande linux, éxecutez le programme "install.bat".\
